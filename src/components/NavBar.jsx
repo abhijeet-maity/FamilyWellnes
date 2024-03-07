@@ -4,13 +4,13 @@ import '../App.css';
 
 const NavBar = () => {
   return (
-    <div className='navbar'>
+      <div className='navbar'>
         <NavItem text="HOME"/>
         <NavItem text="ABOUT"/>
         <NavItem text="SERVICES"/>
         <NavItem text="F&Q"/>
         <NavItem text="CONTACT"/>
-    </div>
+      </div>
   )
 }
 

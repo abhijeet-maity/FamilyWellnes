@@ -1,17 +1,17 @@
 
 // import reactLogo from './assets/react.svg'
-import './App.css'
-import NavBar from './components/NavBar.jsx';
+import './App.css';
+import Header from './components/Header.jsx';
 import HeroImageSection from './components/HeroImageSection.jsx';
+import ThinkSection from './components/ThinkSection.jsx';
 
 function App() {
 
   return (
     <div>
-    <h1>Family Wellness</h1>
-    <p>MASSAGE THERAPY</p>
-    <NavBar/>
+    <Header/>
     <HeroImageSection/>
+    <ThinkSection/>
     </div>
   )
 }
