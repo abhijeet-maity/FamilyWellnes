@@ -25,9 +25,17 @@ h1 {
   color:rgb(138, 9, 73);
 }
 p{
+  margin-top: 0.3rem;
   margin-left: 4px;
   text-align: left;
 }
+#heroImg {
+  width: 100vw;
+  height: 80vh;
+  background: url('../src/assets/Hero.jpg') no-repeat center;
+  background-size: cover;
+}
+
 
 
 
