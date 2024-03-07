@@ -1,0 +1,35 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.navbar {
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(138, 9, 73);
+  margin-top: 2rem;
+  color: white;
+  letter-spacing: 1.5px;
+}
+h1 {
+  margin-left: 4px;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: left;
+  color:rgb(138, 9, 73);
+}
+p{
+  margin-left: 4px;
+  text-align: left;
+}
+
+
+
+
+
