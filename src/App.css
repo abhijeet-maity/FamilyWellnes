@@ -14,10 +14,19 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(138, 9, 73);
+  background-color: rgb(167, 161, 161);
   /* margin-top: 5rem; */
   color: white;
   letter-spacing: 1.5px;
+}
+.nav-link {
+  padding-top: 14px;
+  text-align: center;
+  width: 20vw;
+  height: 3rem;
+}
+.nav-link:hover {
+  background-color:rgb(138, 9, 73);
 }
 #header h1 {
   margin-left: 6px;
@@ -80,6 +89,66 @@ body {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 0%;
+}
+.paragraphSection {
+  width: 85vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.paragraphSection p {
+  font-size: 1.1rem;
+}
+.paragraphSection p:first-child {
+  color: rgb(138, 9, 73);
+  font-weight: 600;
+}
+#address-section {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#address {
+  width: 70vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#address h1 {
+  color: rgb(138, 9, 73);
+}
+#footer-section {
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+#footer-section div:first-child {
+  width: 100vw;
+  height: 3rem;
+  background-color: rgb(167, 161, 161);
+  text-align: center;
+  padding-top: 14px;
+}
+#footer-section p {
+  text-align: center;
+  font-weight: 600;
+}
+#footer-section div:last-child {
+  width: 100vw;
+  height: 3rem;
+  text-align: center;
+  padding-top: 14px;
+  color: rgb(167, 161, 161);
 }
 
 
